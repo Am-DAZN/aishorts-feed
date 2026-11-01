@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LRMoE Speeds Up Training of Large MoE Models on Limited GPU Memory · AI Shorts</title>
+<meta name="description" content="Mixture-of-Experts (MoE) models split work among many small expert networks, but some experts get far more data than others. This slows training. Past fixes copy popular experts, yet the copies use up scarce GPU memory that is also needed for data buffers. Researchers built LRMoE, a training system that is aware of memory limits. During the backward pass, it estimates which token-expert pairs matter most for updating an expert, and keeps only those within set quotas. It then spreads the kept work evenly across copies of each expert and packs it into smaller messages and computations. On Qwen3-30B-A3B and GLM4.5-106B-A12B, it cut MoE-layer training time to reach fixed loss targets by 21.2 to 44.8 percent compared with SYMI, an existing method.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="LRMoE Speeds Up Training of Large MoE Models on Limited GPU Memory">
+<meta property="og:description" content="Mixture-of-Experts (MoE) models split work among many small expert networks, but some experts get far more data than others. This slows training. Past fixes copy popular experts, yet the copies use up scarce GPU memory that is also needed for data buffers. Researchers built LRMoE, a training system that is aware of memory limits. During the backward pass, it estimates which token-expert pairs matter most for updating an expert, and keeps only those within set quotas. It then spreads the kept work evenly across copies of each expert and packs it into smaller messages and computations. On Qwen3-30B-A3B and GLM4.5-106B-A12B, it cut MoE-layer training time to reach fixed loss targets by 21.2 to 44.8 percent compared with SYMI, an existing method.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/ea36b5ffc5dc7110">
+
+<meta name="twitter:card" content="summary">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>LRMoE Speeds Up Training of Large MoE Models on Limited GPU Memory</h1>
+<p>Mixture-of-Experts (MoE) models split work among many small expert networks, but some experts get far more data than others. This slows training. Past fixes copy popular experts, yet the copies use up scarce GPU memory that is also needed for data buffers. Researchers built LRMoE, a training system that is aware of memory limits. During the backward pass, it estimates which token-expert pairs matter most for updating an expert, and keeps only those within set quotas. It then spreads the kept work evenly across copies of each expert and packs it into smaller messages and computations. On Qwen3-30B-A3B and GLM4.5-106B-A12B, it cut MoE-layer training time to reach fixed loss targets by 21.2 to 44.8 percent compared with SYMI, an existing method.</p>
+<p><a class=b href="aishorts://story/ea36b5ffc5dc7110">Open in AI Shorts</a>
+<a class=b href="https://arxiv.org/abs/2610.37720">Read on arXiv AI</a></p>
+</body></html>

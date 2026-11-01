@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpecSlot Cuts Cost of Image Generation by Splitting Fine Detail from Global Attention · AI Shorts</title>
+<meta name="description" content="Researchers introduced SpecSlot, an image-generating Transformer that works directly on pixels. Usual models use one token per image patch, so adding finer detail means more tokens and much costlier global attention. The team noticed that broad structure needs global sharing, while fine detail can be handled locally. SpecSlot splits each image anchor into several slots, each covering a band of frequencies. Only the lowest-frequency slot joins global attention, while all slots talk locally. On ImageNet-512, it improved FID, a image quality score where lower is better, by 2.84 over a matched control with 3.9% fewer FLOPs (a measure of compute). It came within 0.69 FID of JiT-B/16 at 38.2% lower cost. In text-to-image tests, it beat JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SpecSlot Cuts Cost of Image Generation by Splitting Fine Detail from Global Attention">
+<meta property="og:description" content="Researchers introduced SpecSlot, an image-generating Transformer that works directly on pixels. Usual models use one token per image patch, so adding finer detail means more tokens and much costlier global attention. The team noticed that broad structure needs global sharing, while fine detail can be handled locally. SpecSlot splits each image anchor into several slots, each covering a band of frequencies. Only the lowest-frequency slot joins global attention, while all slots talk locally. On ImageNet-512, it improved FID, a image quality score where lower is better, by 2.84 over a matched control with 3.9% fewer FLOPs (a measure of compute). It came within 0.69 FID of JiT-B/16 at 38.2% lower cost. In text-to-image tests, it beat JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/83164272268bd766">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2610.40647.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>SpecSlot Cuts Cost of Image Generation by Splitting Fine Detail from Global Attention</h1>
+<p>Researchers introduced SpecSlot, an image-generating Transformer that works directly on pixels. Usual models use one token per image patch, so adding finer detail means more tokens and much costlier global attention. The team noticed that broad structure needs global sharing, while fine detail can be handled locally. SpecSlot splits each image anchor into several slots, each covering a band of frequencies. Only the lowest-frequency slot joins global attention, while all slots talk locally. On ImageNet-512, it improved FID, a image quality score where lower is better, by 2.84 over a matched control with 3.9% fewer FLOPs (a measure of compute). It came within 0.69 FID of JiT-B/16 at 38.2% lower cost. In text-to-image tests, it beat JiT-B/8 on DPG-Bench by 1.06 at 40.6% lower forward cost.</p>
+<p><a class=b href="aishorts://story/83164272268bd766">Open in AI Shorts</a>
+<a class=b href="https://huggingface.co/papers/2610.40647">Read on HF Daily Papers</a></p>
+</body></html>
