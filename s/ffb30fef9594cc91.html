@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Python 3.15 error? Simon Willison says delete your uv.lock file · AI Shorts</title>
+<meta name="description" content="Developer Simon Willison has hit confusing dependency errors since moving to Python 3.15. His fix is simple: if in doubt, delete the uv.lock file. A lock file records the exact version of each package a project uses. Most of his projects are libraries, so they do not commit this file. Running uv run pytest still creates one, though. Sometimes it pins a package version that has no ready-made build for Python 3.15. One example failed to build watchfiles 1.1.1, because the tool PyO3 only supports up to Python 3.14. Deleting the file and running the command again usually solves it.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python 3.15 error? Simon Willison says delete your uv.lock file">
+<meta property="og:description" content="Developer Simon Willison has hit confusing dependency errors since moving to Python 3.15. His fix is simple: if in doubt, delete the uv.lock file. A lock file records the exact version of each package a project uses. Most of his projects are libraries, so they do not commit this file. Running uv run pytest still creates one, though. Sometimes it pins a package version that has no ready-made build for Python 3.15. One example failed to build watchfiles 1.1.1, because the tool PyO3 only supports up to Python 3.14. Deleting the file and running the command again usually solves it.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/ffb30fef9594cc91">
+
+<meta name="twitter:card" content="summary">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>Python 3.15 error? Simon Willison says delete your uv.lock file</h1>
+<p>Developer Simon Willison has hit confusing dependency errors since moving to Python 3.15. His fix is simple: if in doubt, delete the uv.lock file. A lock file records the exact version of each package a project uses. Most of his projects are libraries, so they do not commit this file. Running uv run pytest still creates one, though. Sometimes it pins a package version that has no ready-made build for Python 3.15. One example failed to build watchfiles 1.1.1, because the tool PyO3 only supports up to Python 3.14. Deleting the file and running the command again usually solves it.</p>
+<p><a class=b href="aishorts://story/ffb30fef9594cc91">Open in AI Shorts</a>
+<a class=b href="https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/">Read on Simon Willison</a></p>
+</body></html>
