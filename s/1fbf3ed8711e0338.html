@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADIndex Speeds Up Long-Context AI by Trimming Attention Indexing Cost · AI Shorts</title>
+<meta name="description" content="DeepSeek Sparse Attention picks which parts of a long text a model should focus on. But the step that does the picking, called the indexer, still scans all earlier text for every query. At long lengths, it can take over half of the GPU time spent reading the prompt. Researchers propose ADIndex to fix this. It adjusts the approach for each layer of the model, trains lighter indexers by distillation (learning from the original), and lets groups of queries share a list of chosen tokens. Tests on DeepSeek-V3.2 and GLM-5.1 showed near-unchanged scores on LongBench, LongBench v2 and RULER. At 256K tokens, prompt processing was up to 6.22x faster and decoding up to 3.40x faster. End-to-end serving was 1.54x faster at 128K.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ADIndex Speeds Up Long-Context AI by Trimming Attention Indexing Cost">
+<meta property="og:description" content="DeepSeek Sparse Attention picks which parts of a long text a model should focus on. But the step that does the picking, called the indexer, still scans all earlier text for every query. At long lengths, it can take over half of the GPU time spent reading the prompt. Researchers propose ADIndex to fix this. It adjusts the approach for each layer of the model, trains lighter indexers by distillation (learning from the original), and lets groups of queries share a list of chosen tokens. Tests on DeepSeek-V3.2 and GLM-5.1 showed near-unchanged scores on LongBench, LongBench v2 and RULER. At 256K tokens, prompt processing was up to 6.22x faster and decoding up to 3.40x faster. End-to-end serving was 1.54x faster at 128K.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/1fbf3ed8711e0338">
+
+<meta name="twitter:card" content="summary">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>ADIndex Speeds Up Long-Context AI by Trimming Attention Indexing Cost</h1>
+<p>DeepSeek Sparse Attention picks which parts of a long text a model should focus on. But the step that does the picking, called the indexer, still scans all earlier text for every query. At long lengths, it can take over half of the GPU time spent reading the prompt. Researchers propose ADIndex to fix this. It adjusts the approach for each layer of the model, trains lighter indexers by distillation (learning from the original), and lets groups of queries share a list of chosen tokens. Tests on DeepSeek-V3.2 and GLM-5.1 showed near-unchanged scores on LongBench, LongBench v2 and RULER. At 256K tokens, prompt processing was up to 6.22x faster and decoding up to 3.40x faster. End-to-end serving was 1.54x faster at 128K.</p>
+<p><a class=b href="aishorts://story/1fbf3ed8711e0338">Open in AI Shorts</a>
+<a class=b href="https://arxiv.org/abs/2611.12956">Read on arXiv ML</a></p>
+</body></html>

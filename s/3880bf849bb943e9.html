@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datasette stops Firefox from needlessly prefetching the next page of table rows · AI Shorts</title>
+<meta name="description" content="Simon Willison noticed that Firefox was quietly loading the next page of a Datasette table whenever someone opened a table page. The cause was an HTTP link header marked rel=&quot;next&quot;, which Datasette sent with its pages. Firefox treats it as a hint to fetch that page early. Few visitors click &quot;next,&quot; so most of this work is wasted. The browser downloads data nobody needs, and the Datasette server must build a full page that gets thrown away. Willison opened issue #3046 to stop sending the header to Firefox for HTML pages. He also found that Firefox has had an open issue about this behavior for 24 years. One early comment links to his own 2002 blog post complaining about it, which he had completely forgotten.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Datasette stops Firefox from needlessly prefetching the next page of table rows">
+<meta property="og:description" content="Simon Willison noticed that Firefox was quietly loading the next page of a Datasette table whenever someone opened a table page. The cause was an HTTP link header marked rel=&quot;next&quot;, which Datasette sent with its pages. Firefox treats it as a hint to fetch that page early. Few visitors click &quot;next,&quot; so most of this work is wasted. The browser downloads data nobody needs, and the Datasette server must build a full page that gets thrown away. Willison opened issue #3046 to stop sending the header to Firefox for HTML pages. He also found that Firefox has had an open issue about this behavior for 24 years. One early comment links to his own 2002 blog post complaining about it, which he had completely forgotten.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/3880bf849bb943e9">
+
+<meta name="twitter:card" content="summary">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>Datasette stops Firefox from needlessly prefetching the next page of table rows</h1>
+<p>Simon Willison noticed that Firefox was quietly loading the next page of a Datasette table whenever someone opened a table page. The cause was an HTTP link header marked rel=&quot;next&quot;, which Datasette sent with its pages. Firefox treats it as a hint to fetch that page early. Few visitors click &quot;next,&quot; so most of this work is wasted. The browser downloads data nobody needs, and the Datasette server must build a full page that gets thrown away. Willison opened issue #3046 to stop sending the header to Firefox for HTML pages. He also found that Firefox has had an open issue about this behavior for 24 years. One early comment links to his own 2002 blog post complaining about it, which he had completely forgotten.</p>
+<p><a class=b href="aishorts://story/3880bf849bb943e9">Open in AI Shorts</a>
+<a class=b href="https://simonwillison.net/2026/Nov/7/link-rel-next/">Read on Simon Willison</a></p>
+</body></html>

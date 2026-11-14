@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study finds on-policy distillation can handle surprising amounts of training-inference mismatch · AI Shorts</title>
+<meta name="description" content="On-policy distillation trains a small student AI model on its own answers, with a fixed teacher model guiding it. Making those answers is costly, so systems use lower-precision math (quantization) and asynchronous generation. Both can create a mismatch between the model that writes answers and the model being trained. This paper tests how much mismatch the method can take. It finds training quality holds up under a lot of mismatch, then drops past a certain point. Some setups that break reinforcement learning stay stable here. Some model layers are more sensitive to low precision. The authors offer a light check that screens setups without a full training run. Model-specific FP8 recipes kept quality while fitting at least 1.93 times more KV-cache tokens than BF16. Pairing FP8 with asynchronous generation reached the same quality 1.62 times sooner than standard BF16 training. Code is public.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Study finds on-policy distillation can handle surprising amounts of training-inference mismatch">
+<meta property="og:description" content="On-policy distillation trains a small student AI model on its own answers, with a fixed teacher model guiding it. Making those answers is costly, so systems use lower-precision math (quantization) and asynchronous generation. Both can create a mismatch between the model that writes answers and the model being trained. This paper tests how much mismatch the method can take. It finds training quality holds up under a lot of mismatch, then drops past a certain point. Some setups that break reinforcement learning stay stable here. Some model layers are more sensitive to low precision. The authors offer a light check that screens setups without a full training run. Model-specific FP8 recipes kept quality while fitting at least 1.93 times more KV-cache tokens than BF16. Pairing FP8 with asynchronous generation reached the same quality 1.62 times sooner than standard BF16 training. Code is public.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/bea657bfbf690999">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.11450.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>Study finds on-policy distillation can handle surprising amounts of training-inference mismatch</h1>
+<p>On-policy distillation trains a small student AI model on its own answers, with a fixed teacher model guiding it. Making those answers is costly, so systems use lower-precision math (quantization) and asynchronous generation. Both can create a mismatch between the model that writes answers and the model being trained. This paper tests how much mismatch the method can take. It finds training quality holds up under a lot of mismatch, then drops past a certain point. Some setups that break reinforcement learning stay stable here. Some model layers are more sensitive to low precision. The authors offer a light check that screens setups without a full training run. Model-specific FP8 recipes kept quality while fitting at least 1.93 times more KV-cache tokens than BF16. Pairing FP8 with asynchronous generation reached the same quality 1.62 times sooner than standard BF16 training. Code is public.</p>
+<p><a class=b href="aishorts://story/bea657bfbf690999">Open in AI Shorts</a>
+<a class=b href="https://huggingface.co/papers/2611.11450">Read on HF Daily Papers</a></p>
+</body></html>
