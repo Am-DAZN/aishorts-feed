@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Late Entry Speeds Up Looped Language Models Up to 12x · AI Shorts</title>
+<meta name="description" content="Looped language models reuse the same set of layers several times for each word they write. This gives them strong reasoning with fewer parameters, but it makes writing slower. A common fix, early exit, stops after a few passes, which leaves shallow, less accurate memory of past words. This paper tries the opposite idea, called late entry. New words skip the early passes and join only the final passes, at no extra sequential steps. A check called Wake verification can keep results identical to full decoding or allow small errors for more speed. On Ouro-2.6B, the exact version ran 5.2x faster, and the lossy version ran 6.8x faster. On Huginn-3.5B with deeper loops, speedups reached 8.4x for exact output and up to 12.5x for lossy output.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Late Entry Speeds Up Looped Language Models Up to 12x">
+<meta property="og:description" content="Looped language models reuse the same set of layers several times for each word they write. This gives them strong reasoning with fewer parameters, but it makes writing slower. A common fix, early exit, stops after a few passes, which leaves shallow, less accurate memory of past words. This paper tries the opposite idea, called late entry. New words skip the early passes and join only the final passes, at no extra sequential steps. A check called Wake verification can keep results identical to full decoding or allow small errors for more speed. On Ouro-2.6B, the exact version ran 5.2x faster, and the lossy version ran 6.8x faster. On Huginn-3.5B with deeper loops, speedups reached 8.4x for exact output and up to 12.5x for lossy output.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/c19513a66c824328">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.24576.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>Late Entry Speeds Up Looped Language Models Up to 12x</h1>
+<p>Looped language models reuse the same set of layers several times for each word they write. This gives them strong reasoning with fewer parameters, but it makes writing slower. A common fix, early exit, stops after a few passes, which leaves shallow, less accurate memory of past words. This paper tries the opposite idea, called late entry. New words skip the early passes and join only the final passes, at no extra sequential steps. A check called Wake verification can keep results identical to full decoding or allow small errors for more speed. On Ouro-2.6B, the exact version ran 5.2x faster, and the lossy version ran 6.8x faster. On Huginn-3.5B with deeper loops, speedups reached 8.4x for exact output and up to 12.5x for lossy output.</p>
+<p><a class=b href="aishorts://story/c19513a66c824328">Open in AI Shorts</a>
+<a class=b href="https://huggingface.co/papers/2611.24576">Read on HF Daily Papers</a></p>
+</body></html>
