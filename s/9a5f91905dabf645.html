@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SQLite&#x27;s rsync tool copies databases without needing extra disk space · AI Shorts</title>
+<meta name="description" content="sqlite3_rsync is a SQLite tool that copies a database to another machine over an SSH connection. It first appeared as experimental in October 2024 and was improved in May 2025. Simon Willison highlights its best feature. The usual ways to snapshot a database, the backup API or VACUUM INTO, need enough free disk space for a full duplicate. This tool does not. It also updates an existing copy without sending the whole database again. The copy sends short fingerprints of data chunks, and the original replies only with the parts that differ. If the two copies are very different, the extra network use is a few percent at most. This helps small servers that are already over half full.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SQLite&#x27;s rsync tool copies databases without needing extra disk space">
+<meta property="og:description" content="sqlite3_rsync is a SQLite tool that copies a database to another machine over an SSH connection. It first appeared as experimental in October 2024 and was improved in May 2025. Simon Willison highlights its best feature. The usual ways to snapshot a database, the backup API or VACUUM INTO, need enough free disk space for a full duplicate. This tool does not. It also updates an existing copy without sending the whole database again. The copy sends short fingerprints of data chunks, and the original replies only with the parts that differ. If the two copies are very different, the extra network use is a few percent at most. This helps small servers that are already over half full.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/9a5f91905dabf645">
+
+<meta name="twitter:card" content="summary">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>SQLite&#x27;s rsync tool copies databases without needing extra disk space</h1>
+<p>sqlite3_rsync is a SQLite tool that copies a database to another machine over an SSH connection. It first appeared as experimental in October 2024 and was improved in May 2025. Simon Willison highlights its best feature. The usual ways to snapshot a database, the backup API or VACUUM INTO, need enough free disk space for a full duplicate. This tool does not. It also updates an existing copy without sending the whole database again. The copy sends short fingerprints of data chunks, and the original replies only with the parts that differ. If the two copies are very different, the extra network use is a few percent at most. This helps small servers that are already over half full.</p>
+<p><a class=b href="aishorts://story/9a5f91905dabf645">Open in AI Shorts</a>
+<a class=b href="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/">Read on Simon Willison</a></p>
+</body></html>

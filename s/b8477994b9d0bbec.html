@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cmHC Fixes How Hyper-Connections Mix Streams in Large AI Models · AI Shorts</title>
+<meta name="description" content="Hyper-connections let a neural network pass information through several parallel streams instead of one. An earlier method, mHC, keeps this stable by limiting how streams mix, using a set of matrices called the Birkhoff polytope. This paper finds a trade-off. If streams mix too little, they act like separate lanes. If they mix too much, they become hard to tell apart. The authors back this up with theory. They then propose cmHC, which shrinks the allowed set slightly toward its center so streams mix more. It adds no new parameters. A lighter version is used in early layers to avoid over-mixing and keep training stable at large scale. Tests on dense and mixture-of-experts models of various sizes show it works. The team also built faster code for Ascend chips, cutting hyper-connection latency by up to 44.8%.">
+<meta property="og:site_name" content="AI Shorts">
+<meta property="og:type" content="article">
+<meta property="og:title" content="cmHC Fixes How Hyper-Connections Mix Streams in Large AI Models">
+<meta property="og:description" content="Hyper-connections let a neural network pass information through several parallel streams instead of one. An earlier method, mHC, keeps this stable by limiting how streams mix, using a set of matrices called the Birkhoff polytope. This paper finds a trade-off. If streams mix too little, they act like separate lanes. If they mix too much, they become hard to tell apart. The authors back this up with theory. They then propose cmHC, which shrinks the allowed set slightly toward its center so streams mix more. It adds no new parameters. A lighter version is used in early layers to avoid over-mixing and keep training stable at large scale. Tests on dense and mixture-of-experts models of various sizes show it works. The team also built faster code for Ascend chips, cutting hyper-connection latency by up to 44.8%.">
+<meta property="og:url" content="https://am-dazn.github.io/aishorts-feed/s/b8477994b9d0bbec">
+<meta property="og:image" content="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2611.27193.png">
+<meta name="twitter:card" content="summary_large_image">
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:560px;margin:40px auto;padding:0 16px}
+a.b{display:inline-block;margin:8px 8px 0 0;padding:10px 16px;border-radius:999px;background:#4c6ef5;color:#fff;text-decoration:none}</style>
+</head><body>
+<h1>cmHC Fixes How Hyper-Connections Mix Streams in Large AI Models</h1>
+<p>Hyper-connections let a neural network pass information through several parallel streams instead of one. An earlier method, mHC, keeps this stable by limiting how streams mix, using a set of matrices called the Birkhoff polytope. This paper finds a trade-off. If streams mix too little, they act like separate lanes. If they mix too much, they become hard to tell apart. The authors back this up with theory. They then propose cmHC, which shrinks the allowed set slightly toward its center so streams mix more. It adds no new parameters. A lighter version is used in early layers to avoid over-mixing and keep training stable at large scale. Tests on dense and mixture-of-experts models of various sizes show it works. The team also built faster code for Ascend chips, cutting hyper-connection latency by up to 44.8%.</p>
+<p><a class=b href="aishorts://story/b8477994b9d0bbec">Open in AI Shorts</a>
+<a class=b href="https://huggingface.co/papers/2611.27193">Read on HF Daily Papers</a></p>
+</body></html>
